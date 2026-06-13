@@ -1,54 +1,42 @@
 # Allzy Framework
 
-This repository contains the public Allzy Framework documentation, prompts, templates, and source-backed examples.
+Allzy Framework is a specification-first framework for turning raw ideas into structured, AI-ready documentation, prompts, templates, examples, and deterministic context workflows.
 
-The public website is planned and will be added later. Until then, this repository is the canonical public source for the framework material.
+It is designed to help projects move from vague intent to clear, reviewable, reusable artifacts.
 
 ## Start Here
 
-1. Read [`docs/README.md`](docs/README.md) for the framework concept docs.
-2. Read [`prompts/README.md`](prompts/README.md) to choose the right operational prompt family.
-3. Read [`templates/README.md`](templates/README.md) to choose the right reusable artifact structure.
+1. Read [`docs/README.md`](docs/README.md) to understand the framework concepts.
+2. Read [`prompts/README.md`](prompts/README.md) to choose an operational prompt workflow.
+3. Read [`templates/README.md`](templates/README.md) to use reusable artifact structures.
 4. Read [`examples/README.md`](examples/README.md) to inspect source-backed examples and demo payloads.
 
-## Public Structure
+## Repository Structure
 
-| Path | What it contains | Use first |
+| Path | What it contains | Start with |
 |---|---|---|
-| [`docs/`](docs/) | Canonical framework concept documentation and the consolidated V5 specification | [`docs/README.md`](docs/README.md) |
+| [`docs/`](docs/) | Framework documentation, core concepts, and the consolidated V5 specification | [`docs/README.md`](docs/README.md) |
 | [`prompts/`](prompts/) | Operational prompts for Genesis, Triage, Workspace, Retrieval, Specification, and Review workflows | [`prompts/README.md`](prompts/README.md) |
-| [`templates/`](templates/) | Reusable artifact templates that define output shape | [`templates/README.md`](templates/README.md) |
+| [`templates/`](templates/) | Reusable templates for structured AI-ready artifacts | [`templates/README.md`](templates/README.md) |
 | [`examples/`](examples/) | Source-backed examples, sandbox payloads, and local demo artifacts | [`examples/README.md`](examples/README.md) |
 
-`LICENSE.md` and `ai.txt` belong to the public root.
+`LICENSE.md` and `ai.txt` are included at the repository root.
 
-## Future Website
+## How to Use This Repository
 
-A public Allzy Framework website is planned.
+Use the documentation in `docs/` to understand the framework.
 
-The website will present the framework material in a more accessible form and may include guided examples, library navigation, and interactive demonstration content. Until that website exists, the repository structure and README files should be treated as the primary way to explore the framework.
+Use the prompts in `prompts/` when you want to run a specific framework workflow.
 
-Website-related planning or build context may be added later, but it is not part of the active public source structure yet.
+Use the templates in `templates/` when you need a reusable output structure.
 
-## Canonical vs Supporting
+Use the examples in `examples/` when you want to see how the framework material can look in practice.
 
-`docs/` is the canonical concept layer. `prompts/` contains operational prompt instructions. `templates/` contains reusable structures, not filled examples. `examples/` shows completed or preview payloads, not production products.
+## Website
 
-Universal prompts remain the safe default. Provider or model variants must not be treated as ready unless the specific file or folder explicitly marks them ready.
+A public Allzy Framework website is planned for a later release.
 
-## Not Included / Do Not Confuse
-
-The following local/internal/supporting folders are not active public source areas and should not be described as required public repository folders:
-
-- `Referenzen/`
-- `Audits/`
-- `Input/`
-- `Samples/`
-- `Codecs/`
-- `ClaudeReview/`
-- `website-context/`
-
-Build outputs and dependency folders such as `node_modules/`, `dist/`, `build/`, `.next/`, and `.git/` are also outside the public source set.
+Until then, this repository is the primary public source for the framework documentation and related materials.
 
 ## Related Resources
 
