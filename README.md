@@ -4,34 +4,21 @@
 
 **Specification-first framework for reducing AI guessing through structured docs, prompts, templates, examples, and deterministic context workflows.**
 
-<p>
-  <a href="docs/"><strong>Documentation</strong></a>
-  ·
-  <a href="prompts/"><strong>Prompts</strong></a>
-  ·
-  <a href="templates/"><strong>Templates</strong></a>
-  ·
-  <a href="examples/"><strong>Examples</strong></a>
-  ·
-  <a href="https://github.com/flommox/allzy-prism-library"><strong>Prism Library</strong></a>
-</p>
+[![Specification First](https://img.shields.io/badge/Specification--First-1f6feb?style=for-the-badge)](docs/)
+[![Yin Yang Contracts](https://img.shields.io/badge/Yin%2FYang-Contracts-8957e5?style=for-the-badge)](docs/03_Yin_Yang_Contracts.md)
+[![Metadata Graph](https://img.shields.io/badge/Metadata-Graph-238636?style=for-the-badge)](docs/04_Deterministic_Metadata_Graph.md)
+[![Triage](https://img.shields.io/badge/Triage-Workflow-bd561d?style=for-the-badge)](docs/05_Triage_and_Maintenance.md)
+[![License](https://img.shields.io/badge/License-See_LICENSE-f0b429?style=for-the-badge)](LICENSE.md)
 
-<p>
-  <a href="docs/">
-    <img alt="Docs" src="https://img.shields.io/badge/Docs-Available-1f6feb?style=for-the-badge">
-  </a>
-  <a href="prompts/">
-    <img alt="Prompts" src="https://img.shields.io/badge/Prompts-Included-8957e5?style=for-the-badge">
-  </a>
-  <a href="templates/">
-    <img alt="Templates" src="https://img.shields.io/badge/Templates-Included-bd561d?style=for-the-badge">
-  </a>
-  <a href="examples/">
-    <img alt="Examples" src="https://img.shields.io/badge/Examples-Included-238636?style=for-the-badge">
-  </a>
-</p>
+**[Documentation](docs/)** • **[Prompts](prompts/)** • **[Templates](templates/)** • **[Examples](examples/)** • **[Prism Library](https://github.com/flommox/allzy-prism-library)**
+
+---
+
+**[Philosophy](docs/01_Philosophy.md)** • **[Architecture](docs/02_Architecture.md)** • **[Yin/Yang](docs/03_Yin_Yang_Contracts.md)** • **[Metadata Graph](docs/04_Deterministic_Metadata_Graph.md)** • **[Triage](docs/05_Triage_and_Maintenance.md)**
 
 </div>
+
+---
 
 ---
 
