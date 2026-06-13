@@ -4,11 +4,13 @@
 
 **Specification-first framework for reducing AI guessing through structured docs, prompts, templates, examples, and deterministic context workflows.**
 
-[![Specification First](...)](...)
-[![Yin/Yang Contracts](...)](...)
-[![Metadata Graph](...)](...)
-[![Triage Workflow](...)](...)
-[![License](...)](...)
+<p>
+  <code>Specification-first</code>
+  <code>Yin/Yang Contracts</code>
+  <code>Metadata Graph</code>
+  <code>Triage Workflow</code>
+  <code>Deterministic Context</code>
+</p>
 
 **[Documentation](docs/)** • **[Prompts](prompts/)** • **[Templates](templates/)** • **[Examples](examples/)** • **[Prism Library](https://github.com/flommox/allzy-prism-library)**
 
