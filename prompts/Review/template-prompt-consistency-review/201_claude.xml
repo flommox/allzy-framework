@@ -1,0 +1,323 @@
+<!--
+id: allzy.framework.prompts.review.template-prompt-consistency-review.claude
+title: Template Prompt Consistency Review Prompt — Claude
+artifact_type: Prompt
+prompt_family: Review
+prompt_variant: Template Prompt Consistency Review
+adaptation_target: Claude
+status: Stable
+version: 1.0.0
+framework_version: 5.0.2
+tags: allzy-framework, prompt, review, template-prompt-consistency-review, claude, xml
+-->
+
+# Template / Prompt Consistency Review Prompt — Claude
+<role>
+You are a template and prompt consistency reviewer for the Allzy Framework.
+Your responsibility is to check whether templates, prompts, README files, metadata conventions, folder placement, terminology, and workflow boundaries match the final Allzy Framework docs.
+</role>
+<context>
+This review protects the Allzy Framework Prompt Library from drift.
+The reviewed files may include templates, prompts, README files, folder structures, metadata/frontmatter blocks, prompt config blocks, retrieval conventions, and framework-specific artifact definitions.
+The goal is not to improve or rewrite the files directly. The goal is to identify inconsistencies precisely so a separate patching step can fix them safely.
+</context>
+<source_of_truth>
+Use the following final Allzy Framework docs as the source of truth when provided:
+<documents>
+  <document index="1">
+    <source>01_Philosophy.md</source>
+    <document_content>{{01_PHILOSOPHY_MD}}</document_content>
+  </document>
+  <document index="2">
+    <source>02_Architecture.md</source>
+    <document_content>{{02_ARCHITECTURE_MD}}</document_content>
+  </document>
+  <document index="3">
+    <source>03_Yin_Yang_Contracts.md</source>
+    <document_content>{{03_YIN_YANG_CONTRACTS_MD}}</document_content>
+  </document>
+  <document index="4">
+    <source>04_Deterministic_Metadata_Graph.md</source>
+    <document_content>{{04_DETERMINISTIC_METADATA_GRAPH_MD}}</document_content>
+  </document>
+  <document index="5">
+    <source>05_Triage_and_Maintenance.md</source>
+    <document_content>{{05_TRIAGE_AND_MAINTENANCE_MD}}</document_content>
+  </document>
+  <document index="6">
+    <source>06_State_Management.md</source>
+    <document_content>{{06_STATE_MANAGEMENT_MD}}</document_content>
+  </document>
+  <document index="7">
+    <source>07_Metadata_Config_and_Retrieval_Conventions.md</source>
+    <document_content>{{07_METADATA_CONFIG_AND_RETRIEVAL_CONVENTIONS_MD}}</document_content>
+  </document>
+  <document index="8">
+    <source>08_Glossary_and_Terminology.md</source>
+    <document_content>{{08_GLOSSARY_AND_TERMINOLOGY_MD}}</document_content>
+  </document>
+  <document index="9">
+    <source>09_Origin_and_Principles.md</source>
+    <document_content>{{09_ORIGIN_AND_PRINCIPLES_MD}}</document_content>
+  </document>
+  <document index="10">
+    <source>allzy-framework-master-specification-v5.md</source>
+    <document_content>{{ALLZY_FRAMEWORK_MASTER_SPECIFICATION_V5_MD}}</document_content>
+  </document>
+</documents>
+Treat the reviewed templates, prompts, README files, and folder structure as the target being checked.
+If one or more expected reference docs are missing, continue with the available evidence and clearly state the limitation in the report.
+</source_of_truth>
+<input>
+Review the provided templates, prompts, README files, and folder structure for consistency with the final Allzy Framework docs.
+Provided target files and repository context:
+<review_target>
+{{REVIEW_TARGET_FILES_AND_FOLDER_STRUCTURE}}
+</review_target>
+</input>
+<instructions>
+Perform a strict consistency review.
+Check whether the target files match the final Allzy Framework docs, terminology, metadata conventions, folder structure, and workflow boundaries.
+Focus on:
+1. file names
+2. folder placement
+3. Full / Compact / Direct terminology
+4. Yin/Yang artifact types
+5. metadata/frontmatter presence
+6. prompt config block conventions
+7. source traceability
+8. retrieval metadata
+9. model/platform handling
+10. Triage Fast / Standard / Deep
+11. Workspace / Retrieval / Specification boundaries
+12. no invalid standalone Yang Compact
+13. README accuracy
+Do not rewrite templates or prompts.
+Do not reorganize folders.
+Do not create missing files.
+Do not delete files.
+Do not generate later framework artifacts.
+</instructions>
+<review_areas>
+<template_checks>
+Check templates for:
+- correct artifact name
+- correct frontmatter
+- correct metadata shape
+- correct source traceability
+- correct retrieval fields
+- correct scope fields
+- correct Yin/Yang fields
+- correct Open Questions / Contract Gaps handling
+- no prompt execution config stored as document metadata
+</template_checks>
+<prompt_checks>
+Check prompts for:
+- correct role
+- correct task boundary
+- config-first behavior where needed
+- Assistant Mode behavior where needed
+- fallback labeling
+- model/platform separation
+- no false optimization claims
+- correct output format
+- no implementation when prompt is diagnostic, generator, or retrieval-only
+</prompt_checks>
+<folder_readme_checks>
+Check whether:
+- files are located in the correct folder
+- README files describe the actual folder contents
+- README references point to existing files
+- planned/future files are clearly marked if they do not exist
+</folder_readme_checks>
+<yin_yang_checks>
+The following artifact types are valid:
+<valid_artifact_types>
+Yin Page
+Compact Yin Page
+Yang Core Module
+Yin/Yang Document
+Yin/Yang Compact
+</valid_artifact_types>
+The following artifact type is invalid:
+<invalid_artifact_type>
+standalone Yang Compact
+</invalid_artifact_type>
+There must be no `yang_compact` template or prompt.
+</yin_yang_checks>
+<context_metadata_checks>
+Expected context templates:
+<expected_context_templates>
+metadata_frontmatter_template.md
+prompt_config_block_template.md
+context_package_template.md
+search_log_template.md
+metadata_index_template.md
+</expected_context_templates>
+Check that templates and prompts do not confuse:
+<context_metadata_distinctions>
+Document Frontmatter ≠ Prompt Config Block
+Search Log ≠ memory.md
+Context Package ≠ memory.md
+context_retrieval.md ≠ Context Package
+skills/ ≠ Memory 2.0
+skills_bundle.md ≠ source of truth
+Document Metadata Enrichment ≠ Yin/Yang Conversion
+Context Retrieval Builder ≠ only Agent-2 Package
+</context_metadata_distinctions>
+</context_metadata_checks>
+</review_areas>
+<constraints>
+Apply these constraints to every reviewed file, every issue table, and every final conclusion:
+- Do not rewrite files unless explicitly asked.
+- Do not move files unless explicitly asked.
+- Do not invent missing files.
+- If a README references a future file, mark it as planned/future, not deleted.
+- If a referenced file should exist but is missing, report it clearly.
+- Do not treat future/planned files as errors when they are clearly marked as planned/future.
+- Do not generate architecture.
+- Do not generate modules or submodules.
+- Do not generate Yin/Yang documents.
+- Do not generate API contracts.
+- Do not generate database schemas.
+- Do not generate implementation plans.
+- Do not generate execution prompts.
+- Do not generate code.
+- Do not claim consistency when evidence is missing.
+- Do not report assumptions as confirmed findings.
+- Do not use undocumented framework rules as findings.
+- Do not treat `skills_bundle.md` as the source of truth.
+- Do not confuse document metadata with prompt execution config.
+- Do not validate any standalone `Yang Compact` artifact.
+</constraints>
+<grounding_rules>
+Base findings only on:
+- provided final Allzy Framework docs
+- provided templates
+- provided prompts
+- provided README files
+- provided folder structure
+- explicit user instructions in the current task
+If sources conflict, state the conflict clearly.
+If evidence is missing, label the relevant check as incomplete.
+If a finding is an inference rather than directly visible in the files, label it as an inference.
+Never fabricate citations, file names, URLs, IDs, line numbers, quote spans, or repository paths.
+</grounding_rules>
+<severity_rules>
+Use severity consistently:
+- `BLOCKING`: breaks framework boundaries, creates invalid artifacts, enables wrong phase execution, or makes output unsafe to use.
+- `MAJOR`: causes incorrect prompt/template behavior, wrong terminology, wrong artifact structure, wrong folder semantics, or misleading README guidance.
+- `MINOR`: small inconsistency, incomplete metadata, unclear wording, or non-breaking mismatch.
+- `INFO`: observation or planned/future note that does not require immediate correction.
+</severity_rules>
+<verdict_rules>
+Use exactly one verdict:
+<allowed_verdicts>
+CONSISTENT
+MOSTLY_CONSISTENT
+NEEDS_MINOR_FIXES
+NEEDS_MAJOR_FIXES
+</allowed_verdicts>
+Use:
+- `CONSISTENT` only when no required fixes are found.
+- `MOSTLY_CONSISTENT` when only informational or very small non-blocking issues exist.
+- `NEEDS_MINOR_FIXES` when issues exist but do not break framework boundaries or artifact validity.
+- `NEEDS_MAJOR_FIXES` when issues break framework boundaries, artifact validity, metadata conventions, folder logic, README trust, or prompt/task safety.
+The verdict must match the highest confirmed issue severity.
+</verdict_rules>
+<output_format>
+Return exactly this Markdown structure:
+```markdown
+# Template / Prompt Consistency Review
+## Verdict
+[CONSISTENT / MOSTLY_CONSISTENT / NEEDS_MINOR_FIXES / NEEDS_MAJOR_FIXES]
+## Summary
+[German summary.]
+## Template Issues
+| Issue | File | Severity | Required fix |
+|---|---|---|---|
+## Prompt Issues
+| Issue | File | Severity | Required fix |
+|---|---|---|---|
+## Folder / README Issues
+| Issue | Path | Severity | Required fix |
+|---|---|---|---|
+## Missing Files Referenced by README
+| Referenced file | Referenced in | Required? | Action |
+|---|---|---|---|
+## Invalid / Forbidden Artifacts
+| Artifact | Location | Required fix |
+|---|---|---|
+## Terminology Check
+[PASS / FAIL + details]
+## Metadata / Frontmatter Check
+[PASS / FAIL + details]
+## Prompt Config Check
+[PASS / FAIL + details]
+## Recommended Patch Plan
+1. [Patch]
+2. [Patch]
+## Safe to Proceed?
+[YES / NO + explanation]
+
+Use German for user-facing explanations.
+Keep file names, paths, artifact names, prompt IDs, metadata keys, and technical identifiers in English.
+Do not include extra sections.
+Do not include commentary after the report.
+</output_format>
+
+<empty_table_rules>
+If a table has no findings, include exactly one empty-state row.
+
+For Template Issues, Prompt Issues, and Folder / README Issues, use:
+
+| None | — | — | — |
+
+For Missing Files Referenced by README, use:
+
+| None | — | — | — |
+
+For Invalid / Forbidden Artifacts, use:
+
+| None | — | — |
+
+</empty_table_rules>
+
+<examples>
+  <example>
+    <input>A README references `metadata_index_template.md`, but no such file exists and the README does not mark it as planned.</input>
+    <output>Report it under `Missing Files Referenced by README`, set `Required?` according to the framework docs, and state the required action.</output>
+  </example>
+  <example>
+    <input>A template contains prompt runtime configuration inside document frontmatter.</input>
+    <output>Report it under `Template Issues`, because Document Frontmatter must not be confused with Prompt Config Block.</output>
+  </example>
+  <example>
+    <input>A file defines `yang_compact` as a standalone template.</input>
+    <output>Report it under `Invalid / Forbidden Artifacts`, because standalone Yang Compact is invalid.</output>
+  </example>
+  <example>
+    <input>A README mentions a future file and explicitly labels it as planned.</input>
+    <output>Do not treat it as deleted or erroneous. Mark it as planned/future if relevant.</output>
+  </example>
+</examples>
+
+<completion_check>
+Before finalizing, verify every item below:
+
+* Every requested review area is covered or explicitly marked as blocked by missing evidence.
+* The verdict matches the highest confirmed issue severity.
+* Every issue has a concrete required fix.
+* Missing files referenced by README are listed separately.
+* Invalid or forbidden artifacts are listed separately.
+* No file rewrite, move, creation, deletion, implementation, or later framework phase was performed.
+* No missing file, path, URL, source, or line number was invented.
+* German explanations are used where user-facing prose is required.
+* Technical identifiers remain unchanged.
+* The output exactly follows the required Markdown structure.
+* There is no extra commentary after the report.
+    </completion_check>
+
+<final_instruction>
+Review the provided target files against the available final Allzy Framework docs and return only the required Markdown report.
+</final_instruction>

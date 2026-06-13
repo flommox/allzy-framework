@@ -1,0 +1,101 @@
+# ai.txt — Allzy Framework
+# Machine-readable AI crawler and training policy
+# Version: 1.1 | Date: 2026-06-06
+
+# -------------------------------------------------------------------
+# SUMMARY
+# Human reading: allowed and encouraged.
+# Search engine indexing for discovery: allowed.
+# User-initiated AI retrieval for explanation or study: allowed.
+# AI model training, dataset ingestion, or scraping: NOT permitted.
+# Product/platform RAG, embedding, system prompt use: NOT permitted.
+# -------------------------------------------------------------------
+
+
+## PERMITTED USES
+
+- Humans may read, reference, and cite this content for research,
+  evaluation, or learning purposes, with attribution.
+
+- Search engines may index this repository and associated website
+  content for the purpose of discovery and linking, subject to any
+  platform-level restrictions in robots.txt.
+
+- User-initiated AI retrieval is permitted where an end user
+  directs an AI system to retrieve, explain, summarize, or answer
+  questions about the framework for their own study, evaluation,
+  or reference — provided this retrieval is initiated on demand
+  by a human user and does not involve ingesting the framework
+  content into a persistent model, index, or product system.
+
+
+## PROHIBITED USES
+
+The following are explicitly NOT permitted without prior written
+authorization:
+
+- Training, fine-tuning, aligning, or otherwise developing any
+  AI or machine learning model using any part of this repository —
+  including documentation, prompt logic, architectural patterns,
+  specifications, naming conventions, or source files.
+
+- Including this content in datasets, corpora, or data pipelines
+  intended for AI model development, evaluation, or benchmarking,
+  whether commercial or otherwise.
+
+- Automated scraping of this content for the purpose of model
+  pre-training, instruction tuning, RLHF data collection, or
+  embedding generation.
+
+- Ingesting this content into retrieval-augmented generation (RAG)
+  systems operating as part of a product or platform, including
+  embedding databases, vector stores, and system prompt stores.
+
+- Integrating this content into an AI assistant's system prompt,
+  agent instructions, or persistent model behavior — whether in a
+  commercial, organizational, or developer-tool context.
+
+- Replicating, adapting, or reverse-engineering the framework's
+  prompt logic, agent architecture, or design system into competing
+  products or systems.
+
+- Redistributing this content in modified form to circumvent
+  these restrictions.
+
+
+## DISTINCTION: INDEXING vs. TRAINING vs. USER-INITIATED RETRIEVAL
+
+Search engine crawlers that index content for the purpose of
+returning it in search results (e.g., Googlebot) are permitted.
+
+AI crawlers that collect content for model training, dataset
+construction, or systematic embedding are not permitted,
+regardless of the organization operating them.
+
+User-initiated retrieval — where a person explicitly asks an
+AI system about this framework for learning or evaluation — is
+permitted. Automated, background, or product-integrated ingestion
+is not permitted, even if framed as serving user needs.
+
+
+## ATTRIBUTION
+
+Public references to this framework — in articles, research, or
+tooling — should credit "Allzy Framework" and link to the official
+repository or website.
+
+
+## CONTACT
+
+For licensing inquiries, authorized use requests, or questions
+about this policy, contact:
+
+contact@allzy.de
+
+
+## RELATIONSHIP TO LICENSE
+
+This file states the maintainers' intent for AI crawlers and
+automated systems. It does not replace or supersede the license
+terms in LICENSE.md. In the event of any conflict, LICENSE.md
+governs.
