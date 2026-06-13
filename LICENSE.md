@@ -1,109 +1,181 @@
 # Allzy Framework License
 
+Copyright © 2026 Flommox.
+
+All rights reserved except as expressly permitted in this license.
+
 ---
 
-## 1. Ownership
+## 1. Rights Holder and Scope
 
-The Allzy Framework — including its methodology, architecture, structural logic, named utilities (Prism, Splice), prompt compilation patterns, documentation, and all related written materials — is the intellectual property of its author(s).
+The Allzy Framework materials in this repository are owned by Flommox unless otherwise stated.
 
-All rights are reserved unless explicitly stated otherwise in this document.
+Protected materials include, where legally protectable:
+
+- written documentation
+- prompt texts
+- templates
+- examples
+- terminology descriptions
+- diagrams
+- repository organization
+- named framework materials
+- related written materials
+- public-facing framework descriptions
+
+The names **Allzy**, **Allzy Framework**, **Prism**, and **Splice** are used as project, product, framework, or utility names associated with the Allzy ecosystem.
+
+No permission is granted to use these names, or confusingly similar names, in a way that implies official affiliation, endorsement, certification, sponsorship, or origin from Allzy or Flommox without prior written permission.
+
+This license does not claim exclusive ownership over general ideas, abstract methods, generic concepts, common workflow patterns, or terms that are not legally protectable on their own. It applies to the protected expression, wording, structure, selection, arrangement, documentation, prompts, templates, examples, names, and materials provided in this repository.
 
 ---
 
 ## 2. Permitted Uses
 
-The following uses are permitted without requiring explicit written permission:
+The following uses are permitted without prior written permission:
 
-- **Personal learning** — Reading, studying, and understanding the framework for your own education.
-- **Internal application** — Applying the methodology within your own private or organizational work, provided no part of the framework content is redistributed externally.
-- **Private documentation** — Referencing the framework in internal notes, private wikis, or team documentation not made publicly available.
-- **Attribution-based reference** — Citing or quoting portions of the framework in articles, blog posts, research, or commentary, provided proper attribution is given (see Section 6).
+- **Personal learning** — You may read, study, and understand the framework for your own education.
+- **Internal application** — You may apply the framework methodology within your own private or internal organizational work.
+- **Private documentation** — You may reference the framework in private notes, private wikis, internal documentation, or internal planning materials.
+- **Attribution-based reference** — You may cite, quote, or discuss limited portions of the framework in articles, blog posts, research, commentary, videos, or presentations, provided proper attribution is given.
+- **Non-public evaluation** — You may evaluate the framework internally to decide whether it is useful for your own work.
 
-These permissions are granted for non-commercial and internal use. They do not extend to redistribution, adaptation into competing products, or any of the prohibited uses listed below.
+These permissions are limited to uses that do not redistribute, repackage, publish, embed, train on, commercialize, or productize the framework materials beyond what is expressly permitted in this license.
 
 ---
 
 ## 3. Prohibited Uses
 
-The following uses are expressly prohibited without prior written permission:
+The following uses are prohibited without prior written permission from Flommox:
 
-- **Competing framework reproduction** — Copying, restructuring, or substantially reproducing the Allzy Framework's methodology, architecture, or content to create or operate a competing framework, methodology product, or structured prompt system.
+### 3.1 Redistribution and Republication
 
-- **AI training, integration, and product use** — No part of the Allzy Framework — including its documentation, prompt logic, structural patterns, naming conventions, methodology descriptions, workflow logic, or document architecture — may be used, without prior written permission, to train, fine-tune, align, evaluate, benchmark, distill, embed, encode, systematize, or otherwise integrate functionality, methodology, structural logic, prompt patterns, workflow logic, naming conventions, or documentation patterns into any artificial intelligence system, machine learning model, AI assistant, agent platform, developer tool, prompt platform, workflow automation system, or commercial software product.
+You may not copy, mirror, republish, repackage, sublicense, sell, or redistribute the Allzy Framework materials, in original or modified form, as a public resource, downloadable package, product, service, dataset, documentation set, course, template library, prompt library, or competing framework.
 
-  This prohibition covers use as, but is not limited to:
-  - training data or fine-tuning data for any AI or machine learning model
-  - alignment data or model-behavior shaping data
-  - evaluation data, benchmark data, or capability-assessment data
-  - retrieval-augmented generation (RAG) material for product or platform operation
-  - embedding database material or vector store content
-  - system prompt material or agent-instruction content
-  - product design reference integrated into an AI system's behavior
-  - workflow architecture reference embedded into an automated platform
-  - internal model or tool behavior design
+### 3.2 Competing Framework or Product Use
 
-  Organizations that wish to use the Allzy Framework to improve, train, integrate, commercialize, or operationalize AI systems, AI assistants, prompt tools, developer tools, workflow platforms, or competing products must request prior written permission from the author at **contact@allzy.de**.
+You may not copy, restructure, substantially reproduce, adapt, or derive from the protected expression, structure, documentation, prompt texts, templates, examples, or named framework materials to create, operate, market, or improve a competing framework, methodology product, prompt system, documentation system, workflow system, or commercial software product.
 
-  This restriction does not prevent individuals or organizations from using the framework internally to understand, plan, document, debug, or implement their own projects, provided the framework itself is not redistributed, embedded into a product, used to train or modify an AI system, or used as the basis for a competing commercial offering.
+### 3.3 AI Training, Integration, and Model Use
 
-- **Scraping and bulk extraction** — Automated scraping, bulk downloading, or programmatic extraction of framework content for any purpose, including but not limited to dataset construction or model training pipelines.
+No part of the Allzy Framework materials may be used, without prior written permission, to train, fine-tune, align, evaluate, benchmark, distill, embed, encode, index, vectorize, systematize, or otherwise integrate into any artificial intelligence system, machine learning model, AI assistant, agent platform, developer tool, prompt platform, retrieval system, workflow automation system, commercial software product, or competing product.
 
-- **Competing product republication** — Republishing, repackaging, or redistributing the framework content — in original or modified form — as a product, service, or publicly available resource that competes with or substitutes for the Allzy Framework.
+This includes use as or in:
 
-- **Competing prompt compiler development** — Using the protected logic, structural design, or architectural patterns of Prism (the Allzy deterministic prompt compiler) to build, train, or inform a directly competing deterministic prompt compilation system.
+- training data
+- fine-tuning data
+- alignment data
+- evaluation data
+- benchmark data
+- distillation data
+- embedding databases
+- vector stores
+- retrieval-augmented generation systems
+- AI agent instructions
+- system prompts
+- prompt libraries
+- workflow automation logic
+- developer tooling
+- product behavior design
+- commercial AI product features
 
-- **Unauthorized use of protected names** — Using the names **Allzy**, **Prism**, **Splice**, or any confusingly similar names in a way that implies official affiliation, endorsement, or origin from this project, when no such relationship exists.
+This restriction does not prevent individuals or organizations from using the framework internally to understand, plan, document, debug, or implement their own projects, provided the framework materials themselves are not redistributed, embedded into a product, used for AI training or model/tool behavior design, or used as the basis for a competing commercial offering.
+
+### 3.4 Scraping and Bulk Extraction
+
+You may not scrape, crawl, bulk download, programmatically extract, harvest, or convert the framework materials for dataset creation, indexing, embedding, training, benchmarking, product ingestion, or redistribution.
+
+### 3.5 Unauthorized Name Use
+
+You may not use the names **Allzy**, **Allzy Framework**, **Prism**, **Splice**, or confusingly similar names in a way that suggests official affiliation, endorsement, certification, sponsorship, compatibility, or origin from Allzy or Flommox without prior written permission.
+
+Third-party tools, scripts, integrations, articles, or references must not present themselves as official Allzy tools or official Allzy Framework extensions unless explicitly authorized.
 
 ---
 
 ## 4. Attribution Requirements
 
-When referencing the Allzy Framework in any permitted context, you must:
+When referencing the Allzy Framework in any permitted public context, you must:
 
-- Clearly identify the Allzy Framework as the source.
-- Not present the methodology or its components as your own original work.
-- Not remove or obscure any authorship notices present in the original materials.
-- Not imply that your work is an official extension, fork, or continuation of the Allzy Framework without explicit written permission.
+- clearly identify **Allzy Framework** as the source
+- credit **Flommox** as the author or rights holder
+- link to the official repository when practical
+- not present the framework, its materials, or its named components as your own original work
+- not remove or obscure copyright, authorship, license, or attribution notices
+- not imply that your work is official, endorsed, certified, sponsored, or maintained by Allzy or Flommox without prior written permission
 
----
+Suggested attribution:
 
-## 5. No Warranty
-
-This framework is provided as-is, without warranty of any kind, express or implied. The author(s) make no representations regarding the accuracy, completeness, fitness for a particular purpose, or legal status of the materials contained herein. Use of this framework is at your own discretion and risk.
-
----
-
-## 6. Official Tooling Boundary
-
-**Prism** and **Splice** are official Allzy utilities. Their names, designs, and associated logic are part of the Allzy Framework's protected intellectual property.
-
-Third-party tools, scripts, or integrations built independently:
-
-- Must not use the names Prism or Splice in a way that implies they are official Allzy tools.
-- Must not claim compatibility, certification, or endorsement by the Allzy Framework without explicit written permission.
-- Must include a clear disclaimer stating they are independent and not affiliated with the Allzy project.
-
-This boundary exists to protect users from confusion and to preserve the integrity of the official tooling.
+> Allzy Framework by Flommox
 
 ---
 
-## 7. Contact
+## 5. Official Tooling Boundary
 
-For licensing inquiries, permission requests, or questions about permitted use, contact:
+**Prism** and **Splice** are official Allzy utilities.
+
+Their names, public descriptions, documentation, structural logic, and associated written materials are part of the Allzy ecosystem materials protected by this license where legally protectable.
+
+Independent third-party tools, scripts, integrations, or adaptations:
+
+- must not use the names **Prism** or **Splice** in a way that implies they are official Allzy tools
+- must not claim official compatibility, certification, sponsorship, or endorsement by Allzy or Flommox
+- must not present themselves as official extensions or continuations of the Allzy Framework
+- must include a clear disclaimer if they reference Allzy Framework concepts publicly
+
+This boundary exists to reduce user confusion and preserve the integrity of official Allzy tooling.
+
+---
+
+## 6. No Trademark Grant
+
+This license does not grant any trademark, service mark, trade name, brand, logo, domain name, or other naming rights.
+
+Use of the names **Allzy**, **Allzy Framework**, **Prism**, or **Splice** is only permitted for truthful attribution, reference, or commentary, and only in a way that does not imply official affiliation, endorsement, certification, sponsorship, compatibility, or origin.
+
+Trademark, service mark, trade name, brand, logo, domain name, or other naming rights may require separate registration, enforcement, or written permission.
+
+---
+
+## 7. No Open Source Grant
+
+This repository is publicly visible, but it is not licensed as open source software or open content.
+
+No permission is granted for unrestricted copying, modification, redistribution, commercial use, AI training, model integration, product integration, or derivative product development except where expressly permitted in this license.
+
+All rights not explicitly granted are reserved.
+
+---
+
+## 8. No Warranty
+
+The Allzy Framework materials are provided as-is, without warranty of any kind, express or implied.
+
+Flommox makes no representations or warranties regarding the accuracy, completeness, reliability, suitability, availability, legal status, or fitness for a particular purpose of the materials.
+
+Use of the framework is at your own discretion and risk.
+
+---
+
+## 9. Permission Requests
+
+For licensing inquiries, permission requests, commercial use, AI-related use, integration requests, or questions about permitted use, contact:
 
 **contact@allzy.de**
 
 ---
 
-## 8. Human-Readable Summary
+## 10. Human-Readable Summary
 
-*This summary is provided for convenience only. The sections above govern.*
+This summary is provided for convenience only. The license sections above govern.
 
-> You are welcome to read this framework, learn from it, and apply its methodology in your own private or internal work. If you reference it publicly, please give proper credit.
->
-> You may not copy it into a competing product, use it to train AI models, scrape it programmatically, or present unofficial tools as official Allzy utilities.
->
-> Prism and Splice are official Allzy tools — please do not use those names for unrelated or independent projects in a way that creates confusion.
->
-> All rights not explicitly granted here are reserved.
+You may read, study, reference, and internally apply the Allzy Framework.
 
+You may cite or discuss limited portions publicly with proper attribution.
+
+You may not copy, repackage, redistribute, scrape, train AI systems on, embed into products, or use the protected materials to create competing frameworks, prompt systems, AI tools, workflow platforms, or commercial products without prior written permission.
+
+You may not use the names **Allzy**, **Allzy Framework**, **Prism**, or **Splice** in a way that creates confusion or implies official affiliation.
+
+All rights not explicitly granted are reserved.
