@@ -18,16 +18,18 @@ Protected materials include, where legally protectable:
 - examples
 - terminology descriptions
 - diagrams
-- repository organization
+- public-facing framework descriptions
 - named framework materials
 - related written materials
-- public-facing framework descriptions
+- the selection, arrangement, and organization of the repository materials
 
 The names **Allzy**, **Allzy Framework**, **Prism**, and **Splice** are used as project, product, framework, or utility names associated with the Allzy ecosystem.
 
-No permission is granted to use these names, or confusingly similar names, in a way that implies official affiliation, endorsement, certification, sponsorship, or origin from Allzy or Flommox without prior written permission.
+No permission is granted to use these names, or confusingly similar names, in a way that implies official affiliation, endorsement, certification, sponsorship, compatibility, or origin from Allzy or Flommox without prior written permission.
 
-This license does not claim exclusive ownership over general ideas, abstract methods, generic concepts, common workflow patterns, or terms that are not legally protectable on their own. It applies to the protected expression, wording, structure, selection, arrangement, documentation, prompts, templates, examples, names, and materials provided in this repository.
+This license does not claim exclusive ownership over general ideas, abstract methods, generic concepts, common workflow patterns, functional principles, procedures, systems, or terms that are not legally protectable on their own.
+
+This license applies to the protected expression, wording, structure, selection, arrangement, documentation, prompts, templates, examples, names, and materials provided in this repository.
 
 ---
 
@@ -55,7 +57,7 @@ You may not copy, mirror, republish, repackage, sublicense, sell, or redistribut
 
 ### 3.2 Competing Framework or Product Use
 
-You may not copy, restructure, substantially reproduce, adapt, or derive from the protected expression, structure, documentation, prompt texts, templates, examples, or named framework materials to create, operate, market, or improve a competing framework, methodology product, prompt system, documentation system, workflow system, or commercial software product.
+You may not copy, restructure, substantially reproduce, adapt, or derive from the protected expression, structure, documentation, prompt texts, templates, examples, named framework materials, or public-facing framework descriptions to create, operate, market, or improve a competing framework, methodology product, prompt system, documentation system, workflow system, or commercial software product.
 
 ### 3.3 AI Training, Integration, and Model Use
 
@@ -115,7 +117,7 @@ Suggested attribution:
 
 **Prism** and **Splice** are official Allzy utilities.
 
-Their names, public descriptions, documentation, structural logic, and associated written materials are part of the Allzy ecosystem materials protected by this license where legally protectable.
+Their names, public descriptions, documentation, and associated written materials are part of the Allzy ecosystem materials protected by this license where legally protectable.
 
 Independent third-party tools, scripts, integrations, or adaptations:
 
