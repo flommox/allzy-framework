@@ -1,0 +1,126 @@
+# robots.txt — Allzy Framework
+#
+# Full policy and legal basis: see /ai.txt and /LICENSE.md
+#
+# Policy summary:
+#   - Search engine indexing: allowed.
+#   - On-demand / user-initiated AI retrieval (e.g. a person asking
+#     ChatGPT, Claude, Gemini, Perplexity, etc. to look up or explain
+#     this page): allowed.
+#   - AI model training, fine-tuning, dataset construction, and bulk
+#     scraping: disallowed. See LICENSE.md Section 3.3/3.4 and ai.txt.
+#
+# Note: robots.txt is a voluntary technical signal. It does not limit
+# the rights reserved in ai.txt or LICENSE.md, and non-compliance by
+# a crawler does not constitute authorization.
+
+# ---------------------------------------------------------------
+# Standard search engines — indexing allowed
+# ---------------------------------------------------------------
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+# ---------------------------------------------------------------
+# On-demand / user-initiated AI retrieval — allowed
+# (consistent with ai.txt: a human asking an AI assistant to read
+# or explain this page on demand is permitted)
+# ---------------------------------------------------------------
+
+# OpenAI / ChatGPT
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+# Anthropic / Claude
+User-agent: Claude-User
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+# Perplexity
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# ---------------------------------------------------------------
+# AI training / dataset-construction crawlers — disallowed
+# Not permitted to use this content for model training,
+# fine-tuning, alignment, evaluation, or dataset construction.
+# See LICENSE.md Section 3.3 and ai.txt.
+# ---------------------------------------------------------------
+
+# OpenAI
+User-agent: GPTBot
+Disallow: /
+
+# Anthropic
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+# Google (Gemini / AI features training; does not affect Googlebot
+# search indexing above)
+User-agent: Google-Extended
+Disallow: /
+
+# Apple (Apple Intelligence training; does not affect Applebot
+# search indexing above)
+User-agent: Applebot-Extended
+Disallow: /
+
+# Meta
+User-agent: Meta-ExternalAgent
+Disallow: /
+
+User-agent: FacebookBot
+Disallow: /
+
+# Amazon
+User-agent: Amazonbot
+Disallow: /
+
+# ByteDance
+User-agent: Bytespider
+Disallow: /
+
+# Common Crawl (widely reused for AI training datasets)
+User-agent: CCBot
+Disallow: /
+
+# Other known data-harvesting / AI dataset crawlers
+User-agent: Diffbot
+Disallow: /
+
+User-agent: ImagesiftBot
+Disallow: /
+
+User-agent: Timpibot
+Disallow: /
+
+User-agent: omgili
+Disallow: /
+
+User-agent: omgilibot
+Disallow: /
+
+# ---------------------------------------------------------------
+# Default — public repository, reading/indexing allowed
+# ---------------------------------------------------------------
+User-agent: *
+Allow: /

@@ -1,6 +1,7 @@
 # ai.txt — Allzy Framework
 # Machine-readable AI crawler and training policy
-# Version: 1.1 | Date: 2026-06-06
+# Version: 1.2 | Date: 2026-06-14
+# Corresponds to: LICENSE.md Version 1.0 (Effective 2026-06-14)
 
 # -------------------------------------------------------------------
 # SUMMARY
@@ -10,6 +11,25 @@
 # AI model training, dataset ingestion, or scraping: NOT permitted.
 # Product/platform RAG, embedding, system prompt use: NOT permitted.
 # -------------------------------------------------------------------
+
+
+## LEGAL BASIS
+
+This file constitutes a machine-readable reservation of rights for
+text and data mining (TDM) under Article 4(3) of Directive (EU)
+2019/790 (the "DSM Directive") and its national implementations,
+including § 44b of the German Copyright Act (Urheberrechtsgesetz,
+UrhG).
+
+By this notice, Flommox expressly reserves the rights described in
+Article 4(1) of Directive (EU) 2019/790 and § 44b UrhG with respect
+to all materials in this repository and any associated website. The
+TDM exception for AI training, model development, and dataset
+construction therefore does not apply to these materials without
+prior written authorization.
+
+This reservation operates alongside, and does not replace, the
+contractual terms in LICENSE.md. See "RELATIONSHIP TO LICENSE" below.
 
 
 ## PERMITTED USES
@@ -78,6 +98,27 @@ permitted. Automated, background, or product-integrated ingestion
 is not permitted, even if framed as serving user needs.
 
 
+## TECHNICAL ENFORCEMENT (robots.txt)
+
+This policy is technically reflected in /robots.txt:
+
+- Search-indexing crawlers (e.g. Googlebot, Bingbot, Applebot,
+  DuckDuckBot) and on-demand/user-initiated AI retrieval crawlers
+  (e.g. ChatGPT-User, OAI-SearchBot, Claude-User, Claude-SearchBot,
+  PerplexityBot, Perplexity-User) are allowed.
+
+- AI training and dataset-construction crawlers (e.g. GPTBot,
+  ClaudeBot, anthropic-ai, Google-Extended, Applebot-Extended,
+  Meta-ExternalAgent, Amazonbot, Bytespider, CCBot, and other known
+  data-harvesting bots) are disallowed.
+
+robots.txt is a voluntary technical signal honored by compliant
+crawlers. It does not limit, and is not a substitute for, the rights
+reserved in this file and in LICENSE.md. A crawler ignoring
+robots.txt does not gain any authorization that this file and
+LICENSE.md do not grant.
+
+
 ## ATTRIBUTION
 
 Public references to this framework — in articles, research, or
@@ -95,7 +136,8 @@ contact@allzy.de
 
 ## RELATIONSHIP TO LICENSE
 
-This file states the maintainers' intent for AI crawlers and
-automated systems. It does not replace or supersede the license
-terms in LICENSE.md. In the event of any conflict, LICENSE.md
-governs.
+This file states the maintainers' intent and rights reservation for
+AI crawlers and automated systems, including the TDM reservation
+described in "LEGAL BASIS" above. It does not replace or supersede
+the license terms in LICENSE.md or the technical signals in
+robots.txt. In the event of any conflict, LICENSE.md governs.
