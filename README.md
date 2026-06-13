@@ -1,16 +1,43 @@
+<div align="center">
+
 # Allzy Framework
 
 **Specification-first framework for reducing AI guessing through structured docs, prompts, templates, examples, and deterministic context workflows.**
 
-[Documentation](docs/) · [Prompts](prompts/) · [Templates](templates/) · [Examples](examples/) · [Prism Library](https://github.com/flommox/allzy-prism-library)
+<p>
+  <a href="docs/"><strong>Documentation</strong></a>
+  ·
+  <a href="prompts/"><strong>Prompts</strong></a>
+  ·
+  <a href="templates/"><strong>Templates</strong></a>
+  ·
+  <a href="examples/"><strong>Examples</strong></a>
+  ·
+  <a href="https://github.com/flommox/allzy-prism-library"><strong>Prism Library</strong></a>
+</p>
+
+<p>
+  <a href="docs/">
+    <img alt="Docs" src="https://img.shields.io/badge/Docs-Available-1f6feb?style=for-the-badge">
+  </a>
+  <a href="prompts/">
+    <img alt="Prompts" src="https://img.shields.io/badge/Prompts-Included-8957e5?style=for-the-badge">
+  </a>
+  <a href="templates/">
+    <img alt="Templates" src="https://img.shields.io/badge/Templates-Included-bd561d?style=for-the-badge">
+  </a>
+  <a href="examples/">
+    <img alt="Examples" src="https://img.shields.io/badge/Examples-Included-238636?style=for-the-badge">
+  </a>
+</p>
+
+</div>
 
 ---
 
-## Overview
+Allzy Framework is a specification-first framework for turning raw ideas into structured, AI-ready documentation, prompts, templates, examples, and deterministic context workflows.
 
-Allzy Framework helps projects move from vague intent to clear, reviewable, reusable artifacts.
-
-It provides a structured way to define intent, execution contracts, context, prompts, templates, and examples before AI systems start guessing.
+It is designed to help projects move from vague intent to clear, reviewable, reusable artifacts.
 
 ## Start Here
 
