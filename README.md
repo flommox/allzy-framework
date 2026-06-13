@@ -2,20 +2,15 @@
 
 **Specification-first framework for reducing AI guessing through structured docs, prompts, templates, examples, and deterministic context workflows.**
 
-![Status](https://img.shields.io/badge/status-public_preview-blue)
-![Docs](https://img.shields.io/badge/docs-available-brightgreen)
-![Prompts](https://img.shields.io/badge/prompts-included-purple)
-![Templates](https://img.shields.io/badge/templates-included-orange)
-![Examples](https://img.shields.io/badge/examples-included-teal)
-![License](https://img.shields.io/badge/license-see_LICENSE-yellow)
-
 [Documentation](docs/) · [Prompts](prompts/) · [Templates](templates/) · [Examples](examples/) · [Prism Library](https://github.com/flommox/allzy-prism-library)
 
 ---
 
-Allzy Framework is a specification-first framework for turning raw ideas into structured, AI-ready documentation, prompts, templates, examples, and deterministic context workflows.
+## Overview
 
-It is designed to help projects move from vague intent to clear, reviewable, reusable artifacts.
+Allzy Framework helps projects move from vague intent to clear, reviewable, reusable artifacts.
+
+It provides a structured way to define intent, execution contracts, context, prompts, templates, and examples before AI systems start guessing.
 
 ## Start Here
 
