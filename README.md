@@ -4,21 +4,17 @@
 
 **Specification-first framework for reducing AI guessing through structured docs, prompts, templates, examples, and deterministic context workflows.**
 
-[![Specification First](https://img.shields.io/badge/Specification--First-1f6feb?style=for-the-badge)](docs/)
-[![Yin Yang Contracts](https://img.shields.io/badge/Yin%2FYang-Contracts-8957e5?style=for-the-badge)](docs/03_Yin_Yang_Contracts.md)
-[![Metadata Graph](https://img.shields.io/badge/Metadata-Graph-238636?style=for-the-badge)](docs/04_Deterministic_Metadata_Graph.md)
-[![Triage](https://img.shields.io/badge/Triage-Workflow-bd561d?style=for-the-badge)](docs/05_Triage_and_Maintenance.md)
-[![License](https://img.shields.io/badge/License-See_LICENSE-f0b429?style=for-the-badge)](LICENSE.md)
+[![Specification First](...)](...)
+[![Yin/Yang Contracts](...)](...)
+[![Metadata Graph](...)](...)
+[![Triage Workflow](...)](...)
+[![License](...)](...)
 
 **[Documentation](docs/)** • **[Prompts](prompts/)** • **[Templates](templates/)** • **[Examples](examples/)** • **[Prism Library](https://github.com/flommox/allzy-prism-library)**
-
----
 
 **[Philosophy](docs/01_Philosophy.md)** • **[Architecture](docs/02_Architecture.md)** • **[Yin/Yang](docs/03_Yin_Yang_Contracts.md)** • **[Metadata Graph](docs/04_Deterministic_Metadata_Graph.md)** • **[Triage](docs/05_Triage_and_Maintenance.md)**
 
 </div>
-
----
 
 ---
 
