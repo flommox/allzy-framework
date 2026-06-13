@@ -1,5 +1,7 @@
 # Allzy Framework License
 
+**Version 1.0 — Effective 2026-06-14**
+
 Copyright © 2026 Flommox.
 
 All rights reserved except as expressly permitted in this license.
@@ -84,6 +86,8 @@ This includes use as or in:
 
 This restriction does not prevent individuals or organizations from using the framework internally to understand, plan, document, debug, or implement their own projects, provided the framework materials themselves are not redistributed, embedded into a product, used for AI training or model/tool behavior design, or used as the basis for a competing commercial offering.
 
+For the avoidance of doubt, the "Internal application" permission in Section 2 covers applying the framework's methodology and concepts to your own non-AI work product. It does not authorize incorporating the protected materials into the configuration, prompts, instructions, or behavior of any AI system, model, or agent — including purely internal or non-distributed AI tooling.
+
 ### 3.4 Scraping and Bulk Extraction
 
 You may not scrape, crawl, bulk download, programmatically extract, harvest, or convert the framework materials for dataset creation, indexing, embedding, training, benchmarking, product ingestion, or redistribution.
@@ -160,7 +164,17 @@ Use of the framework is at your own discretion and risk.
 
 ---
 
-## 9. Permission Requests
+## 9. Limitation of Liability
+
+To the maximum extent permitted by applicable law, Flommox shall not be liable for any indirect, incidental, special, consequential, or punitive damages, or for any loss of profits, revenue, data, or goodwill, arising out of or in connection with the use of, or inability to use, the Allzy Framework materials, regardless of the legal theory on which such liability is based.
+
+This limitation applies even if Flommox has been advised of the possibility of such damages and even if a remedy set out in this license fails of its essential purpose.
+
+Nothing in this license excludes or limits liability that cannot be excluded or limited under applicable mandatory law, including liability for death, personal injury, or fraud.
+
+---
+
+## 10. Permission Requests
 
 For licensing inquiries, permission requests, commercial use, AI-related use, integration requests, or questions about permitted use, contact:
 
@@ -168,7 +182,19 @@ For licensing inquiries, permission requests, commercial use, AI-related use, in
 
 ---
 
-## 10. Human-Readable Summary
+## 11. General Provisions
+
+**Severability.** If any provision of this license is found to be invalid, illegal, or unenforceable, that provision shall be limited or removed to the minimum extent necessary, and the remaining provisions shall remain in full force and effect.
+
+**Governing Law and Jurisdiction.** This license is governed by the laws of Germany, excluding its conflict-of-laws rules and the United Nations Convention on Contracts for the International Sale of Goods. Subject to any mandatory consumer-protection rules of your jurisdiction, the courts of Germany have exclusive jurisdiction over any dispute arising out of or in connection with this license.
+
+**Entire Agreement.** This license constitutes the entire agreement between you and Flommox regarding the Allzy Framework materials and supersedes any prior or contemporaneous agreements or understandings, written or oral, regarding their subject matter.
+
+**Changes to This License.** Flommox may update this license for future versions of the Allzy Framework materials. Changes apply prospectively from the date of publication and do not retroactively alter the terms under which a previously obtained copy was licensed, except as required by applicable law.
+
+---
+
+## 12. Human-Readable Summary
 
 This summary is provided for convenience only. The license sections above govern.
 
@@ -179,5 +205,9 @@ You may cite or discuss limited portions publicly with proper attribution.
 You may not copy, repackage, redistribute, scrape, train AI systems on, embed into products, or use the protected materials to create competing frameworks, prompt systems, AI tools, workflow platforms, or commercial products without prior written permission.
 
 You may not use the names **Allzy**, **Allzy Framework**, **Prism**, or **Splice** in a way that creates confusion or implies official affiliation.
+
+The materials are provided as-is, with no warranty and limited liability (Sections 8–9).
+
+This license is governed by German law, with disputes subject to German courts (Section 11).
 
 All rights not explicitly granted are reserved.
